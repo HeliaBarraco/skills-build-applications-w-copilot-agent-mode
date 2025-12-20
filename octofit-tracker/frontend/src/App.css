@@ -1,0 +1,93 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #222;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0d47a1 0%, #1976d2 100%);
+  box-shadow: 0 2px 8px rgba(13, 71, 161, 0.1);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  color: #bbdefb !important;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+.container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(33, 150, 243, 0.08);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+h2, h1, h3 {
+  color: #1976d2;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.list-group-item {
+  background: #e3f2fd;
+  color: #0d47a1;
+  border: 1px solid #90caf9;
+}
+
+.btn, .navbar-toggler {
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+  color: #fff;
+  border: none;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.15);
+  transition: background 0.2s;
+}
+
+.btn:hover, .navbar-toggler:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #42a5f5 100%);
+  color: #fff;
+}
+
+.App-link {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+/* Table styling */
+table {
+  background: #e3f2fd;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(33, 150, 243, 0.07);
+  color: #0d47a1;
+}
+th, td {
+  border: 1px solid #90caf9;
+  padding: 8px 12px;
+}
+th {
+  background: #1976d2;
+  color: #fff;
+}
+
+/* Favicon and logo are handled in public/index.html and public/favicon.ico */
